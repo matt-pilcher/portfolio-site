@@ -87,6 +87,15 @@ table {
 	width: 25%;
 }
 
+/* Typography */
+
+h1 {
+	font-size: 28px;
+}
+h2, h3, h4 {
+	margin-bottom: 15px;
+}
+
 /* Header */
 
 .logo {
@@ -100,4 +109,31 @@ nav {
 nav ul li {
 	display: inline;
 	padding-left: 10px;
+}
+
+/* Projects */
+
+.projects h3 {
+  text-align: center;
+  padding: 20px 0;
+}
+.projects img {
+    width: 100%;
+    height: auto;
+}
+.project {
+  padding-bottom: 30px
+}
+.project-details {
+  text-align: center;
+}
+.project-details h4 {
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .row,
+  .col-1-2 {
+    width: 100%;
+  }
 }
