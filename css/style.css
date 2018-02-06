@@ -110,6 +110,18 @@ nav ul li {
 	display: inline;
 	padding-left: 10px;
 }
+.splash {
+	text-align: center;
+	background: url("https://cdn.pixabay.com/photo/2015/11/18/07/04/drip-1048722_960_720.jpg");
+	background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 150px 20px 100px 20px;
+  color: #fff;
+  clip-path: polygon(0 0,100% 0%,100% 77%,0 100%);
+}
 
 /* Projects */
 
