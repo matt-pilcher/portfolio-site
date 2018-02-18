@@ -66,6 +66,10 @@ table {
 }
 .container {
 	padding: 0px 30px;
+	width: 100%;
+	top: 100%;
+	position: absolute;
+	background: #fff;
 }
 .row {
 	margin: 0 auto;
@@ -89,6 +93,10 @@ table {
 
 /* Typography */
 
+html {
+  height: 100%;
+}
+
 h1 {
 	font-size: 28px;
 }
@@ -100,7 +108,8 @@ h2, h3, h4 {
 
 .logo {
 	padding: 40px 0 20px 0;
-	float: left;
+	letter-spacing: .5em;
+	font-size: 20px;
 }
 nav {
 	padding: 40px 0 20px 0;
@@ -111,17 +120,24 @@ nav ul li {
 	padding-left: 10px;
 }
 .splash {
-	text-align: center;
-	background: url("https://cdn.pixabay.com/photo/2015/11/18/07/04/drip-1048722_960_720.jpg");
-	background-size: cover;
-  background-position: center;
+  padding: 0 30px;
+  position: fixed;
+	background: #ff9900;
   left: 0;
   top: 0;
   width: 100%;
-  padding: 150px 20px 100px 20px;
+  height: 100%;
   color: #fff;
-  clip-path: polygon(0 0,100% 0%,100% 77%,0 100%);
 }
+
+.splash-content {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.splash-content h2 {
+  font-size: 100px;
+} 
 
 /* Projects */
 
@@ -148,4 +164,6 @@ nav ul li {
   .col-1-2 {
     width: 100%;
   }
+  
+
 }
